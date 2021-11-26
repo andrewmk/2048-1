@@ -14,7 +14,6 @@ from kivy.utils import platform
 from kivy.factory import Factory
 from random import choice, random
 
-platform = platform()
 app = None
 
 if platform == 'android':
